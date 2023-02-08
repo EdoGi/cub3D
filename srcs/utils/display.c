@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   display.c                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: egiacomi <egiacomi@student.42.fr>          +#+  +:+       +#+        */
+/*   By: edogi <edogi@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/06/04 22:02:28 by cle-gran          #+#    #+#             */
-/*   Updated: 2022/06/19 02:29:00 by egiacomi         ###   ########.fr       */
+/*   Updated: 2023/02/08 00:41:33 by edogi            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,6 +31,7 @@ void	display_tabint(int	*tab)
 	int	i;
 
 	i = 0;
+	(void) i;
 	if (!tab)
 	{
 		printf("\n");

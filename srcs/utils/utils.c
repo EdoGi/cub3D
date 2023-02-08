@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   utils.c                                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: egiacomi <egiacomi@student.42.fr>          +#+  +:+       +#+        */
+/*   By: edogi <edogi@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/26 17:55:23 by cle-gran          #+#    #+#             */
-/*   Updated: 2022/06/19 02:28:45 by egiacomi         ###   ########.fr       */
+/*   Updated: 2023/02/08 00:41:57 by edogi            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -44,6 +44,7 @@ char	*ft_freedup(char *str, char *str2)
 {
 	char	*res;
 
+	(void) res;
 	res = ft_strdup(str);
 	free(str2);
 	return (str);

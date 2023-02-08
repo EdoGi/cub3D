@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ray_display.c                                      :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: egiacomi <egiacomi@student.42.fr>          +#+  +:+       +#+        */
+/*   By: edogi <edogi@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/06/16 04:09:44 by egiacomi          #+#    #+#             */
-/*   Updated: 2022/06/19 17:05:33 by egiacomi         ###   ########.fr       */
+/*   Updated: 2023/02/08 00:42:55 by edogi            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -73,6 +73,7 @@ void	put_to_img(t_map *map, int x)
 	int		start;
 	int		end;
 
+	(void)ray;
 	y = 0;
 	ray = &map->ray;
 	set_stop(map, &start, &end);

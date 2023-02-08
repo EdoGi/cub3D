@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   main.c                                             :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: cle-gran <cle-gran@student.42.fr>          +#+  +:+       +#+        */
+/*   By: edogi <edogi@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/22 18:56:02 by cle-gran          #+#    #+#             */
-/*   Updated: 2022/06/19 17:03:43 by cle-gran         ###   ########.fr       */
+/*   Updated: 2023/02/08 00:54:45 by edogi            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -84,6 +84,6 @@ int	main(int ac, char **av)
 		hammam_finish(&map);
 	}
 	else
-		error_parsing(NULL, "Wrong number of arguments");
+		error_parsing(NULL, "\033[1m\033[31mIncorrect usage\033[0m. Please launch the program using the following format: \033[1m'./cub3d maps/<maps chosen>.cub'\033[0m. Once the program is launched, you can move using the keys \033[1m'a', 's', 'd', 'w'\033[0m and change your view direction using the arrow keys.");
 	return (0);
 }
